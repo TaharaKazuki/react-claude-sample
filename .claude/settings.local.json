@@ -5,8 +5,7 @@
       "Bash(gh:*)",
       "Bash(git checkout:*)",
       "Bash(git push:*)",
-      "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nchore: git操作のBash権限を追加\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git add:*)"
     ]
   }
 }
