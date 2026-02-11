@@ -22,10 +22,6 @@ React 19 + TypeScript + Vite の最小構成スタータープロジェクト。
 - **状態管理:** Reactフックのみ（外部ライブラリなし）
 - **ビルド:** Vite 7 + `@vitejs/plugin-react`
 
-## TypeScript
-
-Strictモード有効。`noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`, `noUncheckedSideEffectImports`, `erasableSyntaxOnly`。ターゲット ES2022、モジュール解決 bundler。
-
 ## リンティング
 
 ESLint 9 フラットコンフィグ。`@eslint/js` recommended + `typescript-eslint` recommended + `react-hooks` + `react-refresh`。対象: `*.ts`, `*.tsx`。
@@ -39,14 +35,6 @@ ESLint 9 フラットコンフィグ。`@eslint/js` recommended + `typescript-es
 - セミコロン省略
 - シングルクォート使用（JSX属性含む）
 - インデントはスペース2つ
-
-### TypeScript
-
-- `any` 禁止。`unknown` + 型ガードで絞り込む
-- 型推論が効く箇所では型注釈を省略してよい
-- Props は `interface` で定義。名前は `コンポーネント名Props`
-- `type` は合併型・交差型など `interface` で表現しにくい場合のみ使用
-- Enum 禁止（`erasableSyntaxOnly` のため）。`as const` またはユニオン型で代替
 
 ### React コンポーネント
 
