@@ -11,9 +11,9 @@
       "Bash(git push:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample status)",
-      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample diff HEAD)",
-      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample log --oneline -5)"
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
     ]
   }
 }
