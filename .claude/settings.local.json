@@ -1,11 +1,19 @@
 {
+  "attribution": {
+    "commit": "Created by author with Claude Code",
+    "pr": "このPRはClaude Codeを活用して作成しました"
+  },
   "permissions": {
     "allow": [
       "Bash(ls:*)",
       "Bash(gh:*)",
       "Bash(git checkout:*)",
       "Bash(git push:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample status)",
+      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample diff HEAD)",
+      "Bash(git -C /Users/tahara_kazuki/products/claude_code/react-claude-sample log --oneline -5)"
     ]
   }
 }
