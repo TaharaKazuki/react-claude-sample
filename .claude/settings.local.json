@@ -13,7 +13,11 @@
       "Bash(git commit:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "mcp__plugin_serena_serena__get_current_config",
+      "mcp__plugin_serena_serena__list_memories",
+      "mcp__plugin_serena_serena__onboarding",
+      "mcp__plugin_serena_serena__activate_project"
     ]
   }
 }
